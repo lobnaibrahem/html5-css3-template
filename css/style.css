@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 70px;
+    background-color: #222222;
+    display: flex;
+}
+.col1{
+    flex-direction: row;
+    width:50% ;
+
+}
+.col2{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width:50% ;
+    
+}
+.nv ul{
+    margin-top:10px;
+}
+.nv ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:16px 25px;
+}
+.nv ul li a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #FFF;
+}
+.logo {
+    padding-left: 20px;
+}
+.logo span{
+    color: #fff;
+    font-size:1.3em;
+    margin-left: 20px;
+    font-weight: 800;
+    position: relative;
+    top: -35px;
+}
+.logo img{
+    margin-left: 12%;
+}
+.nv li a:hover{
+    transition: all .5s ease-in-out;
+    color: #EC3237;
+    border-bottom: 2px solid #EC3237;
+}
+.main{
+    background-image: url("../images/cover.jpg");
+    background-size:cover;
+    /* height: 600px; */
+}
+.one{
+    background-color: rgba(236, 51, 55, 0.7);
+    height: 600px;
+    padding-left: 50px;
+}
+.title{
+    text-shadow: 0px 5px 10px #af2424;
+    font-weight: 700;
+    font-size: 4em;
+    color: #ffffff;
+    padding-top: 15%;
+
+}
+.ti-2{
+    color: #fff;
+    font-weight: 700;
+}
+.btn{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: all .5s ease-in;
+}
+
+.sec{
+    background-color: #fff;
+    padding-bottom: 3rem;
+}
+.whatDo{
+    background-color: #F5F5F5;
+    padding-bottom: 3rem;
+}
+.skils{
+    background-color: #fff;
+    padding-bottom: 3rem;
+}
+.video{
+    background-color: #F5F5F5;
+    padding-bottom: 3rem;
+}
+.form{
+    background-color: #fff;
+    padding-bottom: 3rem;
+}
+section{
+    box-shadow:2px 2px 2px 0 rgba(31, 31, 31, 0.07);
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.about-img{
+    width: 45%;
+}
+.about-content{
+    width: 50%;
+}
+.about-img img{
+    max-width: 100%;
+    height: auto;
+    padding-left: 2rem;
+}
+.about-text{
+    padding: 2rem;
+}
+.about{  
+    font-size: 2em;
+    font-weight: 800;
+    color:#444444;
+    
+}
+p.three{
+    font-size: 16px;
+    font-weight: 300;
+    color: #959595;
+    margin: 0px 0 2.2rem;
+
+}
+.card{
+    width: 30%;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+}
+.card-i{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    color: #777777;
+    text-align: center;
+    padding: 12px 0;
+}
+.card-w{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card h4:hover{
+    color: #ec3237;
+}
+.card i:hover{
+    background-color:#ec3237; 
+    color: #fff;
+}
+.flexP{
+    display: flex;
+    justify-content: left;
+}
+.progress{
+    width: 50%;
+    margin:0 20px;
+    color: #EC3237;
+
+}
+meter{
+    margin:0 20px;
+    font-size: 40px;
+    width: 75%;
+}
+meter::-webkit-meter-optimum-value {
+    background: #EC3237;
+}
+.prog{
+    margin:0 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #959595;
+}
+.btnn{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color:#EC3237;
+    padding: 10px 20px 10px;
+    margin-top: 30px;
+}
+.vid{
+    width: 80%;
+    margin: 0 auto;
+}
+.custom-form{
+    width: 40%;
+    margin:0 1.5rem;
+}
+
+.svg{
+    width: 40%;
+    margin: 0 0 0 11.2rem;
+}
+.form-input{
+    background-color: #fbfbfb;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    height: 46px;
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+textarea {
+    resize: none;
+    height: 100px !important ;
+    padding:50px 0;
+ }
+ .form-btn{
+    background:#EC3237;
+    border: 0;
+    border-radius: 4px;
+    display: block;
+    font-size: 22px;
+    padding: 10px 26px;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+  
+}
+footer{
+    color: #fff;
+    background:#EC3237;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
